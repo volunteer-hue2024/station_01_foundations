@@ -78,6 +78,6 @@ Discrete math focuses on clear rules and logic steps.
 
 # Documentation Guide
 
-Go to the [next LinearReg Overview](/README_LinearReg.md).
+Go to - [next LinearReg Overview](/Readme_LinearReg.md).
 
  
