@@ -76,4 +76,8 @@ Discrete math focuses on clear rules and logic steps.
 ---
 *Created with ❤️ for AI Learners. Keep learning, keep calculating!*
 
+# Documentation Guide
+
+Go to the [next Overview](../README_LinearReg.md).
+
  
