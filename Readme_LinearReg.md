@@ -174,6 +174,3 @@ Here is a **Glossary of Terms** and a **Summary Table** to wrap up Station 01. T
 
 **This concludes Station 01! Nxt at this station could be Multiple Linear Regression" (predicting  using more than one )?**
 
----
-
-**Would you like me to create a "Cheat Sheet" table for the different types of Loss Functions (MSE vs. MAE) to add to this README?**
