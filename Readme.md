@@ -1,6 +1,6 @@
 # 📐 Why Math for AI? 🤖
 
-https://youtube.com/clip/UgkxgKdZX2CLfMaF6Axq_0PtlSEs6e7RW262?si=gNMI30tTwNiFak4U 
+https://youtube.com/clip/UgkxgRow Vector: Often represents a single observation in a dataset.KdZX2CLfMaF6Axq_0PtlSEs6e7RW262?si=gNMI30tTwNiFak4U 
 
 ## ⚡ 1. Calculus: Learn from mistakes (OPTIMIZATION)
 Every model starts with wrong answers. Calculus tells the model how wrong it is and in which direction it must improve.
@@ -30,7 +30,70 @@ Linear Algebra allows us to represent and manipulate massive datasets efficientl
 * **Singular Value Decomposition (SVD):** Breaks data into essential components vs. noise.
 
 ---
+**A vector** has a magnitude and a direction.
 
+To find the magnitude of the vector represented by say the components 3x and 4y (mathematically written as v=[3,4] or 3i+4j), we use the distance formula from the origin.
+$$\sqrt{3^2 + 4^2}$$​
+<br> Row Vector: Often represents a single observation in a dataset.
+
+1. The Algebraic Definition of dot product of 2 vectors
+
+If you have two vectors A and B in a coordinate system, you multiply the matching components and add them together.
+
+For vectors A=[a1​,a2​] and B=[b1​,b2​]:
+A⋅B=(a1​×b1​)+(a2​×b2​)
+
+2. The Geometric Definition of dot product of 2 vectors
+
+The dot product can also be calculated using the lengths of the vectors and the angle between them:
+A⋅B=∥A∥∥B∥cos(θ)
+
+Step-by-Step Calculation
+
+    Identify the Magnitudes:
+
+        ∥A∥=10
+
+        ∥B∥=6
+
+    Find the Cosine of the Angle:
+
+        cos(60∘)=0.5
+
+    Multiply them together:
+
+        A⋅B=10×6×0.5
+
+        A⋅B=60×0.5
+
+        Result = 30
+
+        In cosine similarity, the result is always a value between -1 and 1. This value tells you the "angular relationship" between two vectors.
+
+Here is what those specific markers indicate:
+1. Similarity = 1 (Perfect Match)
+
+    Angle: 0∘
+
+    Meaning: The vectors point in the exact same direction.
+
+    Context: In a recommendation system, this means two users have identical tastes, even if one user rates more items than the other (magnitude doesn't matter).
+
+2. Similarity = 0 (No Relationship)
+
+    Angle: 90∘ (Perpendicular)
+
+    Meaning: The vectors are orthogonal. They have nothing in common.
+
+    Context: In text analysis, this happens when two documents share zero common words. They are completely unrelated.
+
+3. Similarity = -1 (Perfect Opposite)
+
+    Angle: 180∘
+
+    Meaning: The vectors point in exactly opposite directions.
+
+    Context: If Vector A represents "Strongly Agree," Vector B represents "Strongly Disagree." They are diametrically opposed.
 ## ⚡ 3. Probability: Managing Uncertainty
 Probability allows models to move beyond "Yes/No" answers and understand the likelihood of events.
 In probability, concepts like adding chances, multiplying chances, and understanding conditional probability are required.
