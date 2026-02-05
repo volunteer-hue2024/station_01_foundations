@@ -1,8 +1,8 @@
 # 📐 Why Math for AI? 🤖
 
-https://youtube.com/clip/UgkxgRow Vector: Often represents a single observation in a dataset.KdZX2CLfMaF6Axq_0PtlSEs6e7RW262?si=gNMI30tTwNiFak4U 
+https://youtube.com/clip/Ugkxg
 
-## ⚡ 1. Calculus: Learn from mistakes (OPTIMIZATION)
+ ⚡ 1. Calculus: Learn from mistakes (OPTIMIZATION)
 Every model starts with wrong answers. Calculus tells the model how wrong it is and in which direction it must improve.
 Calculus turns the learning process into a series of small, calculated steps that minimize error over time. The goal is to learn by slowly adjusting based on feedback.
 
@@ -38,10 +38,10 @@ $$\sqrt{3^2 + 4^2}$$​
 
 1. The Algebraic Definition of dot product of 2 vectors
 
-If you have two vectors A and B in a coordinate system, you multiply the matching components and add them together.
-
-For vectors A=[a1​,a2​] and B=[b1​,b2​]:
-A⋅B=(a1​×b1​)+(a2​×b2​)
+         If you have two vectors A and B in a coordinate system, you multiply the matching components and add them together.
+         
+         For vectors A=[a1​,a2​] and B=[b1​,b2​]:
+         A⋅B=(a1​×b1​)+(a2​×b2​)
 
 2. The Geometric Definition of dot product of 2 vectors
 
