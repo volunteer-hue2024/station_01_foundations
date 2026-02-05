@@ -1,6 +1,6 @@
 # 📐 Why Math for AI? 
 
-https://youtube.com/clip/Ugkxg
+[📺 Watch: Why Math?](https://www.youtube.com/clip/UgkxxM-bQsoE2DiaIiZRn3Pq7SqrkeBSqRbt)
 
  ⚡ 1. Calculus: Learn from mistakes (OPTIMIZATION)
 Every model starts with wrong answers. Calculus tells the model how wrong it is and in which direction it must improve.
@@ -21,13 +21,13 @@ Linear Algebra allows us to represent and manipulate massive datasets efficientl
 ### Data Structures
 | Object | Description | Example |
 | :--- | :--- | :--- |
-| **Scalar** | Rank-0 tensor; magnitude only. | Temperature |
-| **Vector** | Rank-1 tensor; magnitude and direction. | Velocity |
-| **Tensor** | Higher-order generalization for complex data. | Stress, Inertia |
+| **Scalar** | When you need single value .(Rank-0 tensor); magnitude only. | Temperature |
+| **Vector** | When you need many related values .(Rank-1 tensor); magnitude and direction. | Velocity |
+| **Tensor** | When you need many related values stacked .Higher-order generalization for complex data. | Stress, Inertia, video |
 
 ### Key Operations
-* **Eigenvalues & Diagonalization:** Used to find the "important directions" in data where information is most concentrated.
-* **Singular Value Decomposition (SVD):** Breaks data into essential components vs. noise.
+* **Eigenvalues & Diagonalization:** Used to find the " directions" in data where real information is most concentrated and variation matters.
+* **Singular Value Decomposition (SVD):** Breaks data into important parts and less important parts..ie essential components vs. noise.
 
 ---
 Why **a VECTOR** representation?
@@ -82,24 +82,25 @@ Why **a VECTOR** representation?
 
    
 ## ⚡ 3. Probability: Managing Uncertainty
+
 Probability allows models to move beyond "Yes/No" answers and understand the likelihood of events.
 In probability, concepts like adding chances, multiplying chances, and understanding conditional probability are required.
-* **Conditional probability**
-**GIVEN** THAT A PARTICULAR EVENT(influential) HAS ALREADY OCCURED ,calculate the Probability .
+           
+           * **Conditional probability**
+           **GIVEN** THAT A PARTICULAR EVENT(influential) HAS ALREADY OCCURED ,calculate the Probability .
+           
+           Reduced Sample Space: When B occurs, the possible outcomes shrink to only those within B.
+           
+           $$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
 
-Reduced Sample Space: When B occurs, the possible outcomes shrink to only those within B.
 
-$$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
+             ** The Joint Probabilities ** : The numbers in the center (like 40 or 20) are "joint" because they represent the intersection of two  events (e.g., being a woman and preferring tea).
 
+             ** The Marginal Probabilities ** : The numbers in bold on the edges (70 and 30 for drinks; 50 and 50 for gender) represent the probability of one variable regardless of the other.
 
-    The Joint Probabilities: The numbers in the center (like 40 or 20) are "joint" because they represent the intersection of two events (e.g., being a woman and preferring tea).
+            In mathematical terms, to find the marginal probability P(A), you "sum out" all the possibilities of B:
+            P(A)=i∑​P(A∩Bi​)
 
-    The Marginal Probabilities: The numbers in bold on the edges (70 and 30 for drinks; 50 and 50 for gender) represent the probability of one variable regardless of the other.
-
-In mathematical terms, to find the marginal probability P(A), you "sum out" all the possibilities of B:
-P(A)=i∑​P(A∩Bi​)
-
-P(A∩B) is a Sample Space representation ,hence according to the Bayes theorm, it is to be changed to  **P(B/A).P(A)** ,a prob fractional representation 
 * **BayesTheorm Tree Diagram** 
     * [📺 Watch: TreeDiagram part 1](https://youtube.com/clip/UgkxOUJukQPumDjyuD88DcUobBawpcKUR4sH?si=x35e68TaFFbRz-W9)
        * [📺 Watch: TreeDiagram part 2](https://youtube.com/clip/UgkxjWF0FB7kyNM8XzRidUlPTlYj7QNce9bu?si=Xl1oBH_5xVRDWFe3)
@@ -108,6 +109,9 @@ P(A∩B) is a Sample Space representation ,hence according to the Bayes theorm, 
 * **Bayes’ Theorem:** Enables models to update their "beliefs" when new data arrives, allowing AI to evolve over time.
 * **Distributions:** We use **PDFs** (Probability Density Functions) and **CDFs** (Cumulative Distribution Functions) to model data.
 * **Common Distributions:** Normal (Gaussian), Poisson, Bernoulli, and Binomial.
+
+* P(A∩B) is a Sample Space representation
+hence according to the Bayes theorm, it is to be changed to  **P(B/A).P(A)** ,a prob fractional representation 
 
 ---
 
