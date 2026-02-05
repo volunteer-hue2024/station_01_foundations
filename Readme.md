@@ -1,4 +1,4 @@
-# 📐 Why Math for AI? 🤖
+# 📐 Why Math for AI? 
 
 https://youtube.com/clip/Ugkxg
 
